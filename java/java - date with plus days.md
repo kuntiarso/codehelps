@@ -2,7 +2,7 @@
 
 An instance how to add days to java date. This method must return *java.util.Date* class type.
 
-1. First way, using **DateUtils** class from **Apache Commons** package.
+1. First way, using **DateUtils** class from **Apache Commons** package. It has **addDays()** method to add current date with more days.
 
    ```java
    import java.util.*;
