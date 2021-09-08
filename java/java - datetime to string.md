@@ -21,6 +21,8 @@ An instance how to convert datetime to string with formatter. This method must r
          System.out.println(datetimeStr);
    }
    
+   ...
+   
    // result1: 2021-05-23 21:50:34
    // result2: 05/23/2021
    ```
