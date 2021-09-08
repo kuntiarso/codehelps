@@ -16,6 +16,8 @@ An instance how to add days to java date. This method must return *java.util.Dat
          System.out.println(after);
    }
    
+   ...
+   
    // result: Wed May 25 12:59:57 ICT 2021
    ```
 
@@ -33,6 +35,8 @@ An instance how to add days to java date. This method must return *java.util.Dat
          Date after = calendar.getTime();
          System.out.println(after);
    }
+   
+   ...
    
    // result: Wed May 25 12:59:57 ICT 2021
    ```
