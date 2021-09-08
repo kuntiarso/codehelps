@@ -2,7 +2,7 @@
 
 An instance how to add days to java date. This method must return *java.util.Date* class type.
 
-1. First way, using *DateUtils* class from **Apache Commons** package.
+1. First way, using **DateUtils** class from **Apache Commons** package.
 
    ```java
    import java.util.*;
@@ -19,7 +19,7 @@ An instance how to add days to java date. This method must return *java.util.Dat
    // result: Wed May 25 12:59:57 ICT 2021
    ```
 
-2. Second way, using *Calendar* class.
+2. Second way, using **Calendar** class.
 
    ```java
    import java.util.*;
