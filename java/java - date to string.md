@@ -10,17 +10,17 @@ An instance how to convert date to string with formatter. This method must retur
    ...
    
    public void dateToString(Date date) {
-       SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmssSSS");
-       String dateStr = formatter.format(date);
-       System.out.println(dateStr);
+         SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmssSSS");
+         String dateStr = formatter.format(date);
+         System.out.println(dateStr);
        
-       formatter = new SimpleDateFormat("yyyy-MM-dd");
-       dateStr = formatter.format(date);
-       System.out.println(dateStr);
+         formatter = new SimpleDateFormat("yyyy-MM-dd");
+         dateStr = formatter.format(date);
+         System.out.println(dateStr);
    }
    
-   // result: 20210523123258133
-   // result: 2021-05-23
+   // result1: 20210523123258133
+   // result2: 2021-05-23
    ```
 
 
