@@ -11,9 +11,9 @@ An instance how to add days to java date. This method must return *java.util.Dat
    ...
    
    public void datePlusDays(String plusDays) {
-       Date now = new Date();
-       Date after = DateUtils.addDays(now, Integer.parseInt(plusDays));
-       System.out.println(after);
+         Date now = new Date();
+         Date after = DateUtils.addDays(now, Integer.parseInt(plusDays));
+         System.out.println(after);
    }
    
    // result: Wed May 25 12:59:57 ICT 2021
@@ -27,11 +27,11 @@ An instance how to add days to java date. This method must return *java.util.Dat
    ...
    
    public void datePlusDays(String plusDays) {
-       Calendar calendar = Calendar.getInstance(); 
-       calendar.add(Calendar.DATE, Integer.parseInt(plusDays));
+         Calendar calendar = Calendar.getInstance(); 
+         calendar.add(Calendar.DATE, Integer.parseInt(plusDays));
        
-       Date after = calendar.getTime();
-       System.out.println(after);
+         Date after = calendar.getTime();
+         System.out.println(after);
    }
    
    // result: Wed May 25 12:59:57 ICT 2021
