@@ -2,7 +2,7 @@
 
 An instance how to convert datetime to string with formatter. This method must return *java.lang.String* class type.
 
-1. Using **DateTimeFormatter** class from **Joda-Time** package. It has **print** method which will convert datetime to string.
+1. Using **DateTimeFormatter** class from **Joda-Time** package. It has **print()** method which will convert datetime to string.
 
    ```java
    import org.joda.time.format.DateTimeFormatter;
