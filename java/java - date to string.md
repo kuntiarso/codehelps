@@ -2,7 +2,7 @@
 
 An instance how to convert date to string with formatter. This method must return *java.lang.String* class type.
 
-1. Using **SimpleDateFormat** class.
+1. Using **SimpleDateFormat** class. It has **format()** method which will convert date to string.
 
    ```java
    import java.text.SimpleDateFormat;
