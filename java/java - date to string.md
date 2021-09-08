@@ -19,6 +19,8 @@ An instance how to convert date to string with formatter. This method must retur
          System.out.println(dateStr);
    }
    
+   ...
+   
    // result1: 20210523123258133
    // result2: 2021-05-23
    ```
