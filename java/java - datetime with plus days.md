@@ -2,7 +2,7 @@
 
 An instance how to add days to date-time. This method must return *org.joda.time.DateTime* class or similar type.
 
-1. First way, using a simple **plusDays** method.
+1. First way, using a simple **plusDays()** method from **DateTime** class.
 
    ```java
    import org.joda.time.DateTime;
@@ -18,7 +18,7 @@ An instance how to add days to date-time. This method must return *org.joda.time
    // result: 2021-07-22T13:31:11.288+08:00
    ```
 
-2. Second way, use modifiable datetime class **MutableDateTime**, then call **addDays** method.
+2. Second way, use modifiable datetime class **MutableDateTime**, then call **addDays()** method.
 
    ```java
    import org.joda.time.MutableDateTime;
