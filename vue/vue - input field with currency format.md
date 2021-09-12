@@ -44,4 +44,4 @@ That's all, hope this helps!
 
 ------
 
-:wave: Hi, I'm @kuntiarso :seedling: Frontend VueJs
+:wave: Hi, I'm @kuntiarso :green_book: Frontend Vuejs
