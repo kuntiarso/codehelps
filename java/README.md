@@ -9,4 +9,4 @@ List of cases we may face in *Java Language*. This will be a random list, but I 
 
 ------
 
-:wave: Hi, I'm @kuntiarso	:seedling: Backend Java
+:wave: Hi, I'm @kuntiarso :closed_book: Backend Java
