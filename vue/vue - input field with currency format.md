@@ -20,22 +20,22 @@ In this case, I want to add input field that directly change its format as curre
   <script>
       export default {
           data: () => ({
-  			inputAmount: null,
+              inputAmount: null,
               inputAmountFormat: null
           });
           methods: {
-          	inputAmountOut: function() {
+              inputAmountOut: function() {
                   this.inputAmount = parseFloat(this.inputAmountFormat.replace(/[^\d.]/g, ""));
                   if (isNaN(this.inputAmount)) {
                       this.inputAmount = null
                   }
                   this.inputAmountFormat = this.formatCurrency(this.inputAmount);
               },
-  
+
               inputAmountIn: function() {
-              	this.inputAmountFormat = this.inputAmount.toString();
+                  this.inputAmountFormat = this.inputAmount.toString();
               }
-      	}
+          }
       }
   </script>
   ```
