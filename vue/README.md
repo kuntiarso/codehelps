@@ -6,4 +6,4 @@ List of cases we may face in *VueJS*. This will be a random list, but I sorted i
 
 ------
 
-:wave: Hi, I'm @kuntiarso	:seedling: Frontend VueJs
+:wave: Hi, I'm @kuntiarso :green_book: Frontend Vuejs
