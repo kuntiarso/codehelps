@@ -31,5 +31,5 @@ That's all, hope this helps!
 
 ------
 
-:wave: Hi, I'm @kuntiarso	:seedling: Backend Java
+:wave: Hi, I'm @kuntiarso	:closed_book: Backend Java
 
