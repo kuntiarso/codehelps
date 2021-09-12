@@ -7,4 +7,4 @@ CodeHelps is kinda tips and tricks, maybe a key or solution for whom are looking
 
 ------
 
-:wave: Hi, I'm @kuntiarso	:seedling: Backend Java
+:wave: Hi, I'm @kuntiarso	:closed_book: Backend Java	:green_book: Frontend Vuejs
